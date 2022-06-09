@@ -1,4 +1,4 @@
-package com.plucas.springexamples;
+package com.plucas.springexamples.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
