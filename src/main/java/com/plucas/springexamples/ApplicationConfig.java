@@ -1,5 +1,6 @@
 package com.plucas.springexamples;
 
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
@@ -13,16 +14,16 @@ public class ApplicationConfig extends WebMvcConfigurationSupport {
 
     @Override
     protected void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("css/**",  "images/**")
-                .addResourceLocations("classpath:/static/css/", "classpath:/static/images");
+        registry.addResourceHandler("css/**", "images/**")
+                .addResourceLocations("classpath:/static/css/", "classpath:/static/images/");
     }
 
-    public InternalResourceViewResolver jspViewResolver() {
-        InternalResourceViewResolver  viewResolver = new InternalResourceViewResolver();
+    @Bean
+    public InternalResourceViewResolver jspViewResolver(){
+        InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
         viewResolver.setPrefix("/WEB-INF/jsp/");
         viewResolver.setSuffix(".jsp");
         viewResolver.setViewClass(JstlView.class);
         return viewResolver;
     }
-
 }

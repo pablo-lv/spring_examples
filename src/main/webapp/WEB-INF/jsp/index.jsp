@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>HPlus</title>
-  <link rel="stylesheet" href="../../../../../../../../../../Downloads/Ex_Files_Spring_MVC/Exercise%20Files/Ch01/Resources/css/style.css" type="text/css"/>
+  <link rel="stylesheet" href="css/style.css" type="text/css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-Sök
 <body>
 <header id="home" class="header">
     <nav class="nav" role="navigation">
         <div class="container nav-elements">
             <div class="branding">
-                <a href="#home"><img src="../../../../../../../../../../Downloads/Ex_Files_Spring_MVC/Exercise%20Files/Ch01/Resources/images/hpluslogo.svg" alt="Logo - H Plus Sports"></a>
+                <a href="#home"><img src="images/hpluslogo.svg" alt="Logo - H Plus Sports"></a>
             </div><!-- branding -->
             <ul class="navbar">
                 <li><a href="/home">home</a></li>
@@ -54,7 +53,7 @@ Sök
         <h2 class="headline">People</h2>
         <div class="people-cards">
             <div class="person-card">
-                <img src="../../../../../../../../../../Downloads/Ex_Files_Spring_MVC/Exercise%20Files/Ch01/Resources/images/employees/HenryTwill.jpg" alt="HenryTwill Photo">
+                <img src="images/employees/HenryTwill.jpg" alt="HenryTwill Photo">
                 <div class="card-info">
                     <h3 class="card-name">Henry Twill, Jr</h3>
                     <h4 class="card-title">CEO</h4>
@@ -63,7 +62,7 @@ Sök
             </div><!-- person-card -->
 
             <div class="person-card">
-                <img src="../../../../../../../../../../Downloads/Ex_Files_Spring_MVC/Exercise%20Files/Ch01/Resources/images/employees/JessicaNewton.jpg" alt="JessicaNewton Photo">
+                <img src="images/employees/JessicaNewton.jpg" alt="JessicaNewton Photo">
                 <div class="card-info">
                     <h3 class="card-name">Jessica Newton-Smith, MBA</h3>
                     <h4 class="card-title">CFO</h4>
@@ -72,7 +71,7 @@ Sök
             </div><!-- person-card -->
 
             <div class="person-card">
-                <img src="../../../../../../../../../../Downloads/Ex_Files_Spring_MVC/Exercise%20Files/Ch01/Resources/images/employees/PhiTang.jpg" alt="PhiTang Photo">
+                <img src="images/employees/PhiTang.jpg" alt="PhiTang Photo">
                 <div class="card-info">
                     <h3 class="card-name">Phi Tang, MBA</h3>
                     <h4 class="card-title">Director of Product Development</h4>
@@ -81,7 +80,7 @@ Sök
             </div><!-- person-card -->
 
             <div class="person-card">
-                <img src="../../../../../../../../../../Downloads/Ex_Files_Spring_MVC/Exercise%20Files/Ch01/Resources/images/employees/MariaSontas.jpg" alt="MariaSontas Photo">
+                <img src="images/employees/MariaSontas.jpg" alt="MariaSontas Photo">
                 <div class="card-info">
                     <h3 class="card-name">Maria Sontas</h3>
                     <h4 class="card-title">Director of Marketing</h4>
@@ -90,7 +89,7 @@ Sök
             </div><!-- person-card -->
 
             <div class="person-card">
-                <img src="../../../../../../../../../../Downloads/Ex_Files_Spring_MVC/Exercise%20Files/Ch01/Resources/images/employees/AngelaHaston.jpg" alt="AngelaHaston Photo">
+                <img src="images/employees/AngelaHaston.jpg" alt="AngelaHaston Photo">
                 <div class="card-info">
                     <h3 class="card-name">Angela Hashton</h3>
                     <h4 class="card-title">Director of Sales</h4>
@@ -99,7 +98,7 @@ Sök
             </div><!-- person-card -->
 
             <div class="person-card">
-                <img src="../../../../../../../../../../Downloads/Ex_Files_Spring_MVC/Exercise%20Files/Ch01/Resources/images/employees/MichaelLewiston.jpg" alt="MichaelLewiston Photo">
+                <img src="images/employees/MichaelLewiston.jpg" alt="MichaelLewiston Photo">
                 <div class="card-info">
                     <h3 class="card-name">Michael Lewiston</h3>
                     <h4 class="card-title">MFA, Creative Director</h4>
@@ -115,7 +114,7 @@ Sök
         <nav class="nav" role="navigation">
             <div class="container nav-elements">
                 <div class="branding">
-                    <a href="#home"><img src="../../../../../../../../../../Downloads/Ex_Files_Spring_MVC/Exercise%20Files/Ch01/Resources/images/hpluslogo.svg" alt="Logo - H Plus Sports"></a>
+                    <a href="#home"><img src="images/hpluslogo.svg" alt="Logo - H Plus Sports"></a>
                     <p class="address">100 Main Street<br>
                         Seattle, WA 98144
                     </p>
